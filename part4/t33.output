@@ -1,0 +1,7 @@
+running e2c
+compiling the C generated code
+t33.c: In function 'main':
+t33.c:47: error: 'atwo' undeclared (first use in this function)
+t33.c:47: error: (Each undeclared identifier is reported only once
+t33.c:47: error: for each function it appears in.)
+t33.c:47: error: expected ')' before 'is'

@@ -1,0 +1,284 @@
+==== t01 ====
+==== t02 ====
+==== t04 ====
+==== t05 ====
+==== t06 ====
+2d1
+< a is an undeclared variable on line 2
+==== t07 ====
+2d1
+< a is an undeclared variable on line 2
+==== t08 ====
+==== t09 ====
+==== t10 ====
+==== t11 ====
+==== t12 ====
+==== t14 ====
+==== t15 ====
+==== t16 ====
+7,12c7,15
+< executing the a.out
+< 1998
+< 3333
+< 2222
+< 4444
+< 7777
+---
+> t16.c: In function 'main':
+> t16.c:6: error: redeclaration of 'x_a' with no linkage
+> t16.c:4: note: previous declaration of 'x_a' was here
+> t16.c:8: error: redeclaration of 'x_a' with no linkage
+> t16.c:6: note: previous declaration of 'x_a' was here
+> t16.c:10: error: redeclaration of 'x_a' with no linkage
+> t16.c:8: note: previous declaration of 'x_a' was here
+> t16.c:12: error: redeclaration of 'x_a' with no linkage
+> t16.c:10: note: previous declaration of 'x_a' was here
+==== t17 ====
+2d1
+< h is an undeclared variable on line 10
+==== t18 ====
+==== t19 ====
+==== t20 ====
+5,58c5,9
+< executing the a.out
+< 11
+< -5
+< -4
+< -3
+< -2
+< -1
+< 0
+< -4
+< -3
+< -2
+< -1
+< 0
+< -3
+< -2
+< -1
+< 0
+< -2
+< -1
+< 0
+< -1
+< 0
+< 0
+< -40
+< -30
+< -20
+< -10
+< 0
+< -30
+< -20
+< -10
+< 0
+< -20
+< -10
+< 0
+< -10
+< 0
+< 0
+< -4
+< -3
+< -2
+< -1
+< 0
+< -3
+< -2
+< -1
+< 0
+< -2
+< -1
+< 0
+< -1
+< 0
+< 0
+< 9
+---
+> t20.c: In function 'main':
+> t20.c:12: error: redeclaration of 'x_k' with no linkage
+> t20.c:6: note: previous declaration of 'x_k' was here
+> t20.c:16: error: redeclaration of 'x_i' with no linkage
+> t20.c:4: note: previous declaration of 'x_i' was here
+==== t31 ====
+2d1
+< afour is an undeclared variable on line 23
+==== t32 ====
+2d1
+< athree is an undeclared variable on line 26
+==== t33 ====
+2d1
+< atwo is an undeclared variable on line 29
+==== t37 ====
+==== t42 ====
+3,11c3,6
+< executing the a.out
+< 1998
+< 8888
+< 999
+< 8888
+< 999
+< 999
+< 999
+< 999
+---
+> t42.c: In function 'main':
+> t42.c:27: error: expected ')' before 'x_a'
+> t42.c:30: error: expected ')' before 'x_a'
+> t42.c:38: error: expected ')' before 'x_a'
+==== t43 ====
+2a3,8
+> compiling the C generated code
+> t43.c: In function 'main':
+> t43.c:27: error: expected ')' before 'x_a'
+> t43.c:30: error: expected ')' before 'x_a'
+> t43.c:33: error: expected ')' before 'x_a'
+> t43.c:41: error: expected ')' before 'x_a'
+==== t44 ====
+3,12c3,8
+< executing the a.out
+< 1998
+< 8888
+< 18888
+< 12
+< 18888
+< 12
+< 12
+< 12
+< 12
+---
+> t44.c: In function 'main':
+> t44.c:27: error: expected ';' before 'x_a'
+> t44.c:31: error: expected ';' before 'x_a'
+> t44.c:40: error: expected ')' before 'x_a'
+> t44.c:43: error: expected ')' before 'x_a'
+> t44.c:51: error: expected ')' before 'x_a'
+==== t45 ====
+3,17c3,13
+< executing the a.out
+< 1998
+< 8888
+< 18888
+< 111
+< 111
+< 18888
+< 1000
+< 1000
+< 111
+< 1000
+< 111
+< 111
+< 111
+< 111
+---
+> t45.c: In function 'main':
+> t45.c:35: error: expected ';' before 'x_a'
+> t45.c:42: error: expected ';' before 'x_a'
+> t45.c:46: error: expected ';' before 'x_a'
+> t45.c:51: error: expected ';' before 'x_a'
+> t45.c:60: error: expected ')' before 'x_a'
+> t45.c:63: error: expected ')' before 'x_a'
+> t45.c:66: error: expected ')' before 'x_a'
+> t45.c:74: error: expected ')' before 'x_a'
+> t45.c:77: error: expected ')' before 'x_a'
+> t45.c:85: error: expected ')' before 'x_a'
+==== t46 ====
+3,53c3,11
+< executing the a.out
+< 1998
+< 8888
+< 11
+< 77
+< 999
+< 12
+< 77
+< 999
+< 13
+< 77
+< 999
+< 14
+< 77
+< 999
+< 15
+< 77
+< 999
+< 16
+< 77
+< 999
+< 17
+< 77
+< 999
+< 18
+< 77
+< 999
+< 19
+< 77
+< 999
+< 20
+< 77
+< 999
+< 21
+< 77
+< 999
+< 22
+< 77
+< 999
+< 18888
+< 123
+< 123
+< 18888
+< 1000
+< 1000
+< 123
+< 1000
+< 123
+< 123
+< 123
+< 123
+---
+> t46.c: In function 'main':
+> t46.c:35: error: expected ';' before 'x_bbbb'
+> t46.c:42: error: expected ';' before 'x_bbbb'
+> t46.c:66: error: expected ';' before 'x_bbbb'
+> t46.c:75: error: expected ')' before 'x_bbbb'
+> t46.c:78: error: expected ')' before 'x_bbbb'
+> t46.c:88: error: expected ')' before 'x_k'
+> t46.c:91: error: expected ')' before 'x_bbbb'
+> t46.c:99: error: expected ')' before 'x_bbbb'
+==== t47 ====
+2a3,12
+> compiling the C generated code
+> t47.c: In function 'main':
+> t47.c:35: error: expected ';' before 'x_bbbb'
+> t47.c:42: error: expected ';' before 'x_bbbb'
+> t47.c:68: error: expected ';' before 'x_bbbb'
+> t47.c:77: error: expected ')' before 'x_bbbb'
+> t47.c:80: error: expected ')' before 'x_bbbb'
+> t47.c:90: error: expected ')' before 'x_k'
+> t47.c:93: error: expected ')' before 'x_bbbb'
+> t47.c:101: error: expected ')' before 'x_bbbb'
+==== t48 ====
+2a3,13
+> compiling the C generated code
+> t48.c: In function 'main':
+> t48.c:35: error: expected ';' before 'x_bbbb'
+> t48.c:42: error: expected ';' before 'x_bbbb'
+> t48.c:66: error: expected ')' before 'x_k'
+> t48.c:69: error: expected ';' before 'x_bbbb'
+> t48.c:78: error: expected ')' before 'x_bbbb'
+> t48.c:81: error: expected ')' before 'x_bbbb'
+> t48.c:91: error: expected ')' before 'x_k'
+> t48.c:94: error: expected ')' before 'x_bbbb'
+> t48.c:102: error: expected ')' before 'x_bbbb'
+==== t49 ====
+2a3,12
+> compiling the C generated code
+> t49.c: In function 'main':
+> t49.c:35: error: expected ';' before 'x_bbbb'
+> t49.c:42: error: expected ';' before 'x_bbbb'
+> t49.c:66: error: expected ';' before 'x_bbbb'
+> t49.c:75: error: expected ')' before 'x_bbbb'
+> t49.c:78: error: expected ')' before 'x_bbbb'
+> t49.c:88: error: expected ')' before 'x_k'
+> t49.c:91: error: expected ')' before 'x_bbbb'
+> t49.c:99: error: expected ')' before 'x_bbbb'

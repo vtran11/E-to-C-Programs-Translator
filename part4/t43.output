@@ -1,0 +1,18 @@
+running e2c
+Exception in thread "main" java.util.EmptyStackException
+	at java.util.Stack.peek(Stack.java:102)
+	at symbolTable1.search(symbolTable1.java:91)
+	at Parser.ref_id(Parser.java:159)
+	at Parser.factor(Parser.java:292)
+	at Parser.term(Parser.java:263)
+	at Parser.expr(Parser.java:235)
+	at Parser.print(Parser.java:202)
+	at Parser.statement(Parser.java:103)
+	at Parser.statement_list(Parser.java:93)
+	at Parser.block(Parser.java:45)
+	at Parser.statement(Parser.java:129)
+	at Parser.statement_list(Parser.java:93)
+	at Parser.block(Parser.java:45)
+	at Parser.program(Parser.java:35)
+	at Parser.<init>(Parser.java:24)
+	at e2c.main(e2c.java:5)

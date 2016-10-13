@@ -1,0 +1,13 @@
+running e2c
+compiling the C generated code
+t47.c: In function 'main':
+t47.c:32: error: 'bbbb' undeclared (first use in this function)
+t47.c:32: error: (Each undeclared identifier is reported only once
+t47.c:32: error: for each function it appears in.)
+t47.c:32: error: expected ';' before 'is'
+t47.c:37: error: expected ')' before 'is'
+t47.c:44: error: expected ')' before 'is'
+t47.c:49: error: expected ';' before 'is'
+t47.c:60: error: 'x_k_0' undeclared (first use in this function)
+t47.c:65: error: expected ')' before 'is'
+t47.c:75: error: expected ')' before 'is'
